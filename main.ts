@@ -28,7 +28,12 @@ function renderHTML(sketches: Sketch[]): string {
     <head>
         <title>Sketches</title>
         <style>
+            :root {
+              --primary: rgb(255, 67, 101);
+            }
+
             h1 {
+                color: var(--primary);
                 text-align: center;
             }
 
@@ -40,9 +45,21 @@ function renderHTML(sketches: Sketch[]): string {
             }
 
             iframe {
-                outline: 1px solid #000;
+                outline: 2px solid var(--primary);
+                border-radius: 0.5rem;
                 align-self: center;
                 justify-self: center;
+            }
+
+            hr {
+              background-color: var(--primary);
+              border: none;
+              height: 2px;
+            }
+
+            footer {
+              text-align: center;
+              color: var(--primary);
             }
         </style>
     </head>
