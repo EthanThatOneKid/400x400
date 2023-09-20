@@ -1,12 +1,6 @@
-# p5_template
+# 400x400
 
-A template for starting a new local p5.js project.
-
-## Reference
-
-- [p5.js Getting Started](https://p5js.org/get-started/)
-- [p5.js Reference](https://p5js.org/reference/)
-- [Khan Academy p5.js Documentation](https://www.khanacademy.org/computing/computer-programming/pjs-documentation)
+Grid of n 400x400 iframe elements.
 
 ---
 
