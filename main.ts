@@ -1,5 +1,5 @@
-import type { Sketch } from "./sketch.ts";
-import { getSketchesFromURL, renderSketchHTML } from "./sketch.ts";
+import type { Sketch } from "./mod.ts";
+import { getSketchesFromURL, renderSketchHTML } from "./mod.ts";
 
 if (import.meta.main) {
   await main();
